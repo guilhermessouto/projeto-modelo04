@@ -6,17 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
 </head>
 <body>
     <section class="sec-1">
         <header>
-            <div class="header-flex">
+            <nav id="nav">
                 <p>START BOOTSTRAP</p>
-                <nav>
-                    <a href="#">SIGN UP</a>
-                    <a href="#">LOGIN</a>
-                </nav>
-            </div>
+                <div id="hamburguer" onclick="clicar()">
+                    <div class="line" id="line1"></div>
+                    <div class="line" id="line2"></div>
+                    <div class="line" id="line3"></div>
+                </div>
+                <ul id="menu">
+                    <li><a href="#">SIGN UP</a></li>
+                    <li><a href="#">LOGIN</a></li>
+                </ul>
+            </nav>
         </header>
 
         <div class="sec-1-text">
